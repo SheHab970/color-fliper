@@ -1,0 +1,41 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: system-ui;
+}
+.continer{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   height: 100vh;
+}
+.continer div{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 70px 0px;
+}
+h1{
+    background-color: rgb(37, 37, 37);
+    color: white;
+    padding: 12px;
+    border-radius: 10px;
+
+}
+button{
+    border: none;
+    padding: 10px;
+    font-size: 20px;
+    font-weight: 600;
+    background-color: transparent;
+    border-radius: 10px;
+    transition: 0.5s all;
+    box-shadow: 1px 2px 24px 1px rgb(57, 57, 57);
+    cursor: pointer;
+}
+button:hover{
+    transform: scale(1.1,1.1);
+}
